@@ -1,0 +1,105 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body {
+    padding: 0 auto;
+    margin: 0 auto;
+    font-size: 16px;
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+.label, .input, .label2 {
+    display: inline-block;
+    margin: 10px auto;
+    border: 2px solid #eee;
+    padding: 10px 20px;
+    min-width: 240px;
+    background: white;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: bottom;
+    text-align: center;
+    height: 100vh;
+}
+.n1 {
+    padding: 20px;
+    text-align: center;
+}
+.n2 {
+    padding: 50px;
+    text-align: center;
+    background: rgba(176, 179, 222, 0.7);
+    margin: auto;
+    border-radius: 10%;
+    border: 2px solid darkblue;
+}
+.n3 {
+    padding-left: 45px;
+}
+ol, .label2 {
+    text-align: left;
+}
+.footer {
+    margin-top: 50px;
+    text-align: center;
+}
+.underform {
+    font-size: 20px;
+}
+.showbutton {
+    display: inline-block;
+    padding: 10px;
+    color: #FFD700;
+    background: #008080;
+    border-radius: 40%;
+    border: 2px solid black;
+    text-decoration: none;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.showbutton:hover, .a:hover {
+    cursor: pointer;
+    background: darkturquoise;
+}
+.active {
+    background: darkturquoise;
+}
+input {
+    width: 300px;
+    height: 40px;
+}
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+}
+select, p {
+    text-align: center;
+}
+textarea {
+    display: inline-block;
+    margin: 10px auto;
+    border: 2px solid #eee;
+    padding: 10px 20px;
+}
+.forms {
+    display: none;
+}
+#ReadAll {
+    display: block;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+}
+#bAbout {
+    min-width: 200px;
+}
+#About {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 15px;
+    background: rgba(176, 179, 222, 1);
+    border-radius: 40%;
+}
